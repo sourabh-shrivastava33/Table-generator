@@ -1,0 +1,21 @@
+.table td {
+  color: #fff;
+  background-color: #666;
+  border: 1px solid black;
+  padding: 0.4rem;
+}
+
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  height: 100vh;
+}
+
+.submit {
+  color: #fff;
+  background-color: #666;
+}/*# sourceMappingURL=index.css.map */

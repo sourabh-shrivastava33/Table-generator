@@ -1,0 +1,23 @@
+@mixin common-style {
+	color: #fff;
+	background-color: #666;
+}
+
+.table {
+	td {
+		@include common-style();
+		border: 1px solid black;
+		padding: 0.4rem;
+	}
+} /*# sourceMappingURL=index.css.map */
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 2rem;
+	height: 100vh;
+}
+.submit {
+	@include common-style();
+}
